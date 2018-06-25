@@ -9,7 +9,7 @@
 @endsection
 
 @section('content')
-    <p>This is my body content.</p>
+    <p style="color:red;">This is my body content.</p>
     @foreach ($basket as $fruit)
         <b>{{$fruit}}</b>,
     @endforeach
